@@ -97,7 +97,7 @@ export function buildTicketEmailHTML(params: TicketTemplateParams): string {
                 Swap Party
               </h1>
               <p style="margin:8px 0 0; color:rgba(255,255,255,0.9); font-size:16px;">
-                Intercambio de Ropa
+                Descuento exclusivo
               </p>
             </td>
           </tr>

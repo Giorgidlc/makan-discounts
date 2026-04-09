@@ -49,7 +49,7 @@ export default async function ConfirmacionPage({ params }: Props) {
           </div>
 
           {/* Consumición */}
-          <div className="drink-included">🍹 1 consumición incluida</div>
+          <div className="drink-included">🍹 Descuento exclusivo</div>
 
           {/* Detalles */}
           <div className="ticket-details">
@@ -63,7 +63,7 @@ export default async function ConfirmacionPage({ params }: Props) {
             </div>
             <div className="detail">
               <span className="label">📍 Lugar</span>
-              <p>
+              <p style={{ textAlign: 'right', maxWidth: '17ch' }}>
                 {EVENT.location} — {EVENT.address}
               </p>
             </div>
@@ -76,9 +76,6 @@ export default async function ConfirmacionPage({ params }: Props) {
 
         <div className="ticket-footer">
           <p>📧 También te hemos enviado esta entrada por email.</p>
-          <a href={`/cancelar/${ticket.cancelToken}`} className="cancel-link">
-            ¿No puedes asistir? Cancela tu entrada
-          </a>
         </div>
       </div>
     </main>

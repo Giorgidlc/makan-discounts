@@ -9,7 +9,7 @@ export function generateTicketCode(): string {
   for (let i = 0; i < 4; i++) {
     code += chars.charAt(Math.floor(Math.random() * chars.length))
   }
-  return `SWAP-${code}`
+  return `TAI-${code}`
 }
 
 /**
