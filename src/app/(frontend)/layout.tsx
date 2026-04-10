@@ -5,7 +5,7 @@ import './styles.css'
 
 export const metadata = {
   title: 'Descuento MAKAN',
-  description: 'Descuento exclusivo para trabajodores de TAI en el restaurante MAKAN de Recoletos.',
+  description: 'Descuento exclusivo para trabajodores de TAI en MAKAN de Recoletos.',
 }
 
 export default async function RootLayout(props: { children: React.ReactNode }) {
